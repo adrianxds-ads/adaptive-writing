@@ -4,7 +4,7 @@ Adaptive Writing is the writing-focused sibling of **Adaptive English** and **Ad
 
 ## Core loop
 
-**Spanish prompt → shuffled English chunks → tap to build → 10 seconds → feedback → next.**
+**Shuffled English chunks → tap to build a numbered vertical sentence → 10 seconds → feedback → next.**
 
 The interaction type never changes. Variety comes from the content, chunk combinations, topics and difficulty.
 
@@ -18,9 +18,11 @@ The interaction type never changes. Variety comes from the content, chunk combin
 - Chunk-level and sentence-level mastery with five states: Seen → Familiar → Secure → Automatic → Durable
 - Durable mastery requires successful retrieval across separate sessions and spaced reviews
 - Adaptive selection reserves attention for due material, weak chunks, unseen sentences and recent errors
-- Progressive challenge: familiar sentences gain one distractor; stronger sentences can gain two, while the interaction remains unchanged
+- English-only play: the Spanish source remains in content metadata but is not displayed during the timed game
+- Candidate chunks are rendered in lowercase so capitalization cannot reveal the first position
+- Selected chunks occupy numbered vertical slots; incorrect answers snap to the canonical order in the same slots
 - Position colour sequence using **Adrián Visual System · AVS 2.0**
-- Short position notes generated with Web Audio
+- Adaptive English-style alternating timer ticks, stronger 3-2-1 ticks, answer sounds and short position notes generated with Web Audio
 - Export/import of progress JSON
 - Offline-capable PWA
 
