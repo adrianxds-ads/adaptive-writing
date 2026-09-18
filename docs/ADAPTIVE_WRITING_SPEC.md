@@ -26,7 +26,7 @@ This yields approximately 66.7% B2, 26.7% B2+ and 6.7% C1 in the initial 300-sen
 
 Progress is stored separately from content and includes sentence stats, chunk stats, attempts, level history, rating, XP and streak. Import/export uses schema version 1 and the content version recorded in the content source.
 
-Mastery combines accuracy, repeated exposure and speed. Adaptive sentence weighting favours unseen material, due material, weak chunks and recent errors, while temporarily down-weighting mastered sentences.
+Mastery combines accuracy, exposure, speed, successful retrieval across separate sessions and spaced retrieval. The five visible states are Seen, Familiar, Secure, Automatic and Durable. Durable cannot be reached from a single pass through the bank. Adaptive session composition favours due material, weak seen material and recent errors while keeping a smaller exploration quota for unseen sentences. From the third exposure onward, familiar sentences gain one curated same-pattern distractor; stronger sentences can gain two. The Spanish prompt keeps the answer unambiguous and the core tap-to-build mechanic never changes.
 
 ## Audio-visual sequence
 

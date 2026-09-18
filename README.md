@@ -15,8 +15,10 @@ The interaction type never changes. Variety comes from the content, chunk combin
 - 15 questions per level
 - Fixed 10-second clock
 - B2-dominant progression with B2+ and a small C1 layer
-- Chunk-level and sentence-level mastery
-- Adaptive selection based on weak chunks, due material, unseen sentences and recent errors
+- Chunk-level and sentence-level mastery with five states: Seen → Familiar → Secure → Automatic → Durable
+- Durable mastery requires successful retrieval across separate sessions and spaced reviews
+- Adaptive selection reserves attention for due material, weak chunks, unseen sentences and recent errors
+- Progressive challenge: familiar sentences gain one distractor; stronger sentences can gain two, while the interaction remains unchanged
 - Position colour sequence using **Adrián Visual System · AVS 2.0**
 - Short position notes generated with Web Audio
 - Export/import of progress JSON
